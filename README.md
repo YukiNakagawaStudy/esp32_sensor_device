@@ -30,8 +30,8 @@ ArduinoJson ( by Benoit Blanchon) 6.14
 4. データをJSON形式でPOST ( <code>void CreateJson()</code> )  
 5. Switch Off ⇨ 全接続の解除  
   
-### CreateJson.ino  
-<code>void CreateJson()</code>  
+### SaveBeat.ino  
+<code>void SaveBeat()</code>  
 * Buffer
 POSTするデータ数を変更する時は, timeInterval(測定時間幅)とarrayNum(要素数)を変更  
 arrayNumの値により, バッファの大きさが決まる
